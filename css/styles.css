@@ -71,6 +71,7 @@ body {
     line-height: 1.36em;
     letter-spacing: 0.06em;
     text-align: center;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 
@@ -98,6 +99,7 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14em;
+    text-transform: uppercase;
 }
 
 .advantages p {
@@ -194,10 +196,14 @@ body {
 }
 
 .projects button {
+    font-family: inherit;
+    font-style: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63em;
-    text-align: center;
+    letter-spacing: inherit;
+    color: inherit;
+    background-color:#F5F4FA;
     cursor: pointer;
 }
 
